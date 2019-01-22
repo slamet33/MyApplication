@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_up"
+        android:hint="@string/name"
+        android:inputType="textPassword"
+        android:textColor="@color/biru"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/show"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <!-- TextView ialah View -->
+    <TextView
+        android:id="@+id/txt_print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_up"
+        android:gravity="center_horizontal"
+        android:text="@string/name_print"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

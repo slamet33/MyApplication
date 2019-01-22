@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="activity_home">Home</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="show">Show</string>
+    <string name="name_print">Name Print</string>
+</resources>
